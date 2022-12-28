@@ -1,0 +1,30 @@
+.pricelist_bg{
+    min-height: 100vh;
+    padding: min(5vw, 2.5rem);
+    background: url("../assets/IMG-1090.JPG");
+    filter: opacity(.75);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.deals{
+    width: fit-content;
+}
+.border{
+    padding-right:min(2vw, 2.5rem);
+    padding-left: min(2vw, 2.5rem);
+}
+.table_div{
+    display: flex;   
+}
+
+@media screen and (max-width: 750px) {
+    .table_div{
+        flex-direction: column;
+    }
+}
+.table_div>table{
+    width: min(400px, 100%);
+   
+}

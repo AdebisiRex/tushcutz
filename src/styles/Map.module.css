@@ -1,0 +1,40 @@
+.details{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    position: relative;
+    top: 2rem;
+}
+.details>div{
+  
+    position: relative;
+    align-items: center;
+    bottom: -4rem;
+}
+
+.map{
+    height: 75vh;
+    background: url("../assets/map.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+@media screen and (max-width: 1250px) and (min-width: 750px){
+    .details{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .details>div:last-child{
+        grid-column: span 2;
+    }
+    
+}
+@media screen and (max-width: 750px) {
+    .details{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        
+    }
+   
+    
+}

@@ -1,23 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+
+import "./App.css";
+
+import Footer from "./components/Footer";
+import { useEffect } from "react";
+import WOW from "wowjs";
+import "animate.css";
+import Header from "./sections/Header";
+import Service from "./components/Service";
+import AboutUs from "./components/AboutUs";
+// import Pricelist from "./sections/Pricelist";
+import OurTeam from "./sections/OurTeam";
+import OurGallery from "./sections/OurGallery";
+import Map from "./sections/Map";
+import NewPriceList from "./sections/NewPriceList";
 
 function App() {
+  useEffect(()=>{
+    new WOW.WOW().init();
+  },[]);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <Header/>
+      <Service/>
+      <AboutUs/>
+      {/* <Pricelist/> */}
+      <NewPriceList/>
+      <OurTeam/>
+      <OurGallery/>
+      <Map/>
+      <Footer/>
     </div>
   );
 }

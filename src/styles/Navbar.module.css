@@ -1,0 +1,45 @@
+@media screen and (max-width: 992px) {
+  .canvas {
+    --clr-primary: #091a2e;
+    max-width: 250px !important;
+    background-color: #091a2e6e !important;
+  }
+  .canvas_item {
+    margin: 10vh auto;
+  }
+}
+.nav_container {
+  margin: auto calc(2rem + 1.5vw);
+}
+
+.navbar_height {
+  height: 150px;
+  position: absolute;
+  width: 100%;
+  top: 0;
+}
+.logo {
+  position: absolute;
+  top: 0;
+  right: 50%;
+  transform: translateX(50%);
+}
+.logo_img_width {
+  width: 220px;
+}
+
+.canvas {
+  opacity: 0;
+  margin-top: -150px;
+  animation: navbar 2s linear 500ms 1 normal forwards;
+}
+@keyframes navbar {
+  to {
+    opacity: 1;
+    margin: 0;
+  }
+}
+
+.navbar_items>li>a:hover{
+  border-bottom: 2px solid red;
+}

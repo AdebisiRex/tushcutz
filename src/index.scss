@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Podkova:wght@400;500;600;700;800&display=swap');
+
+@font-face {
+  font-family: "Ravie";
+  src: url("./assets/RAVIE.TTF");
+}
+
+*{
+  margin:0;
+  padding: 0;
+}
+
+$enable-cssgrid: true;
+
+$font-family-sans-serif: 'Podkova', serif;
+$font-family-monospace: 'Ravie';
+$font-weight-light: 100;
+$primary: #091A2E;
+$danger: #C61010;
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";

@@ -1,0 +1,43 @@
+.header{
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../assets/hero.png");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: grid ;
+    place-items: center;
+    z-index: 0;
+    /* justify-content: left; */
+}
+.header_div{
+    padding: .5rem;
+    /* max-width: 600px; */
+}
+
+
+
+.premium>p, .watch>h4{
+    line-height: 0;
+}
+.watch>h4{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.premium>p{
+    font-size: 1.25rem;
+}
+.text_content>h1{
+    font-size: clamp(2.5rem, 1.5rem + 2vw, 3.5rem);
+    font-weight: 700;
+    line-height: 2.75rem;
+    margin-bottom: .65rem;
+}
+.text_content>p{
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.125rem;
+    margin-bottom: 2rem;
+}
+
+.premium, .text_content{
+    max-width: 600px;
+}

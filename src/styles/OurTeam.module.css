@@ -1,0 +1,11 @@
+.card_img_div>img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+
+}
+.card_img_div{
+    /* height: 450px; */
+    border-radius: 12px 12px 0px 0px;
+    overflow: hidden;
+}
