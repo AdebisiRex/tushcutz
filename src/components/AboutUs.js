@@ -18,10 +18,7 @@ const AboutUs = () => {
 
         <h1>WELCOME TO TUSH BARBER SHOP</h1>
         <p className="ms-3 ps-3">
-          Proactively integrate turnkey synergy with world-class portals.
-          Proactively harness sticky users whereas cooperative opportunities.
-          harness exceptional before fully researched services. Seamlessly
-          network client-focused.
+        Tush Cutz Barbershop is one of the finest barber shops located in the heart of downtown Newark. Our shop has been ranked highly among the high-end barber shops in Newark and is endowed with top-notch barbers who are competent and offer all styles you like. Our work has also been featured on the social media pages of various celebrities as one of the best places to visit for your haircut needs. We provide top-tier services and the best professional haircuts to top professionals and celebrities. We take pride in our commitment, excellence, and elegance in men's grooming. If you want to improve your style and confidence, look no further for a master stylist.
         </p>
 
         <button className="btn btn-danger rounded-0 fs-5 py-3 shadow px-5 float-end">

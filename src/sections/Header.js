@@ -18,8 +18,7 @@ const Header = () => {
             You're Not A Customer, You're FAMILY
           </h1>
           <p>
-            The wonderful serenity has taken possesion of my entire soul, like
-            these sweet mornings of spring which I enjoy with my whole heart
+          The best barbershop in Newark with top-notch stylists. We are the best place to improve your style and confidence.
           </p>
           </div>
           <div className={classes.watch + " d-flex align-items-center"}>

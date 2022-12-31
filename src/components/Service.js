@@ -1,7 +1,7 @@
 import React from "react";
 import classes from "../styles/Service.module.css";
-import facebook from "../assets/facebook-white.png";
-import twitter from "../assets/twitter-white.png";
+// import facebook from "../assets/facebook-white.png";
+import tiktok from "../assets/TikTok.png";
 import instagram from "../assets/instagram.png";
 import google from "../assets/google.png";
 import book from "../assets/book.png";
@@ -14,10 +14,10 @@ const Service = () => {
     <div className={classes.services}>
       <div className={classes.socials + " "}>
         <div>
-          <img className="mx-2" src={facebook} width={20} alt="" />
-          <img className="mx-2" src={twitter} width={20} alt="" />
-          <img className="mx-2" src={instagram} width={20} alt="" />
-          <img className="mx-2" src={google} width={20} alt="" />
+          {/* <img className="mx-2" src={facebook} width={20} alt="" /> */}
+          <a rel="noreferrer" target={"_blank"}  href="tushcutz@gmail.com"><img className="mx-2" src={google} width={20} alt="" /></a>
+          <a rel="noreferrer" target={"_blank"} href="https://www.tiktok.com/@tushiemane?_t=8Yc06momeYk&_r=1"><img className="mx-2" src={tiktok} width={20} alt="" /></a>
+          <a rel="noreferrer" target={"_blank"} href="https://instagram.com/tushcutzbarbershop?igshid=YWJhMjlhZTc="><img className="mx-2" src={instagram} width={20} alt="" /></a>
         </div>
       </div>
       <div className="text-center bg-white py-3">
@@ -39,7 +39,7 @@ const Service = () => {
           " bg-danger  px-4 d-flex justify-content-between align-items-center text-white"
         }
       >
-        <a rel="noreferrer" target="_blank"
+        <a  rel="noreferrer" target="_blank"
            href="https://booksy.com/en-us/540342_tush-cutz-barbershop_barber-shop_134623_newark?do=invite&_branch_match_id=1051452559234864044&utm_source=sms&utm_medium=merchant_customer_invite&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXT07J0UvKz88urtRLzs%2FVL7MM8s6PzM7Iz08CAIyEGjoiAAAA" className="pt-3 w-100 p   text-white ">
           <img src={book} className=" p-0 pb-2 m-0 me-3  " width={20} alt="" />
           <p className="fs-5">

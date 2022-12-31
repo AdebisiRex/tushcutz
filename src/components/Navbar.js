@@ -34,20 +34,7 @@ const Navbar = () => {
           className={classes.canvas + " p-3 offcanvas offcanvas-start navbar-collapse z-50"}
           id="externalNavbar"
         >
-          {/* <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasExampleLabel">
-              Offcanvas
-            </h5>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="offcanvas"
-              aria-label="Close"
-            ></button>
-          <hr />
-          </div> */}
-
-          {/* <div className={classes.canvas_item + "  d-lg-flex justify-content-between  w-100"}> */}
+          
           <div className={"wow animate__animated animate__fadeInDown  d-lg-flex justify-content-between  w-100"}>
             
           <ul className={"navbar-nav fw-normal me-auto  " + classes.navbar_items}>
