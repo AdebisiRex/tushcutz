@@ -5,6 +5,8 @@
     object-position: top;
 }
 .about{
+    position:relative;
+    top: -4.2rem;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
@@ -24,18 +26,29 @@
     font-size: clamp(1.5rem, 20px + 1vw, 3rem);
     font-weight: 700;
 }
-.about_div>p{
+.about_text{
     position: relative;
     font-size: clamp(16px, 10px + 1vw, 20px);
-    margin-bottom: clamp(66.5px,60px + 1vw, 98px);
+    margin-bottom: clamp(3rem, 2.5rem + 1vw, 6rem);
+    transition: all 500ms linear;
+    
+}
+.show{
+    display: -webkit-box;
+    line-clamp: 5;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    overflow: hidden;
+
 }
 .about_div>p::before{
     content: "";
     position: absolute;
     left: 0;
     width: 2px;
-    top: 15%;
-    bottom: 15%;
+    top: 10%;
+    bottom: 10%;
     background-color:#C61010 ;
 
 }

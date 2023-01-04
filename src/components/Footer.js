@@ -22,27 +22,27 @@ const Footer = () => {
             <img className='mx-1' src={instagram} width={20} alt="" />
             <img className='mx-1' src={google} width={20} alt="" />
         </div>
-        <div className={classes.footer_nav + " mx-auto "}>
-            <ul className='d-lg-flex  '>
-                <li >
-                    <a className={'fs-5 mb-5 px-3 text-white '+ classes.link} href="#header">Home</a>
-                </li>
-                <li >
-                    <a href='#about' className={'fs-5 mb-5 px-3 text-white '+ classes.link}>About</a>
-                </li>
-                <li >
-                    <a href='#services' className={'fs-5 mb-5 px-3 text-white '+ classes.link}>Services</a>
-                </li>
-                <li >
-                    <a href='#our-team' className={'fs-5 mb-5 px-3 text-white '+ classes.link}>Our Team</a>
-                </li>
-                <li >
-                    <a href='#gallery' className={'fs-5 mb-5 px-3 text-white '+ classes.link}>Gallery</a>
-                </li>
-                <li >
-                    <a href='#contact' className={'fs-5 mb-5 px-3 text-white '+ classes.link}>Contact</a>
-                </li>
-            </ul>
+        <div className={classes.footer_nav + "  mx-auto "}>
+            <div className='d-lg-flex mx-auto text-center'>
+                <div className='' >
+                    <a className={'fs-5  text-white  nav-link '+ classes.link} href="#header">Home</a>
+                </div>
+                <div className='' >
+                    <a href='#about' className={'fs-5 nav-link text-white '+ classes.link}>About</a>
+                </div>
+                <div className='' >
+                    <a href='#services' className={'fs-5  text-white nav-link '+ classes.link}>Services</a>
+                </div>
+                <div className='' >
+                    <a href='#our-team' className={'fs-5  text-white nav-link '+ classes.link}>Our Team</a>
+                </div>
+                <div className='' >
+                    <a href='#gallery' className={'fs-5  text-white nav-link '+ classes.link}>Gallery</a>
+                </div>
+                <div className=' ' >
+                    <a href='#contact' className={'fs-5  text-white nav-link '+ classes.link}>Contact</a>
+                </div>
+            </div>
         </div>
 
         <div className='mb-3'>

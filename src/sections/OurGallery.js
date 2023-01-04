@@ -12,6 +12,8 @@ import img9 from "../assets/IMG-1159.PNG";
 import img10 from "../assets/IMG-1093.JPG";
 import img11 from "../assets/IMG-1101.JPG";
 import img12 from "../assets/IMG-1083.JPG";
+import img13 from "../assets/image12.png";
+import img14 from "../assets/image13.png";
 import GalleryImage from "../components/GalleryImage";
 const OurGallery = () => {
   return (
@@ -20,21 +22,23 @@ const OurGallery = () => {
         <h1 className="font-monospace text-center text-primary py-5">
           Our gallery
         </h1>
-        <div className={classes.img_div + "  gap-0 bg-success grid"}>
-          <GalleryImage img={img1} />
-          <GalleryImage img={img2} />
-          <GalleryImage img={img3} />
-          <GalleryImage img={img4} />
-          
-          <GalleryImage img={img5} />
-          <GalleryImage img={img6} />
+        <div className={classes.img_div + "  gap-0  grid"}>
           <GalleryImage img={img7} />
-          <GalleryImage img={img8} />
-
-          <GalleryImage img={img9} />
-          <GalleryImage img={img10} />
           <GalleryImage img={img11} />
-          <GalleryImage img={img12} />
+          <GalleryImage img={img5} />
+          <GalleryImage img={img1} />
+          <GalleryImage img={img13} />
+          <GalleryImage img={img14} />
+          <GalleryImage img={img2} st_class ="d-none d-md-block" />
+          <GalleryImage img={img3} st_class ="d-none d-md-block" />
+          <GalleryImage img={img4}  st_class ="d-none d-lg-block"/>
+          
+          <GalleryImage img={img6}  st_class ="d-none d-lg-block"/>
+          <GalleryImage img={img8}  st_class ="d-none d-lg-block"/>
+
+          <GalleryImage img={img9}  st_class ="d-none d-lg-block"/>
+          {/* <GalleryImage img={img10} /> */}
+          {/* <GalleryImage img={img12} /> */}
         </div>
       </div>
     </div>

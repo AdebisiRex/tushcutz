@@ -9,3 +9,12 @@
     border-radius: 12px 12px 0px 0px;
     overflow: hidden;
 }
+
+.our__div {
+     position: relative;
+   
+    top: -4.2rem;
+    /* width: auto; */
+    display: block; 
+    /* border: 5px dotted gold; */
+}

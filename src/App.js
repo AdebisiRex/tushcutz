@@ -20,7 +20,7 @@ function App() {
   },[]);
 
   return (
-    <div className="app">
+    <div>
       <Header/>
       <Service/>
       <AboutUs/>

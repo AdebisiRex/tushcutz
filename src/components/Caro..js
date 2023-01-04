@@ -1,34 +1,40 @@
 import React from "react";
 
 const Caro = () => {
+  let comments = [
+    {comment: "He takes his time to get you right, definitely Recommended", name:"Samuel O"},
+    {comment: "Best barber in town", name:"Adekeye A"},
+    {comment: "Great barber. Always keep me looking fresh!", name:"Izundu j"},
+    {comment: "Very impressed with the detail. Very satisfied with the cut. Charismatic barber", name:"Shakeel G"},
+    {comment: "Great service. Chill environment", name:"Joachim A"},
+    {comment: "Best barber in Newark,  with a clean environment, comfortable, very welcoming, and of course second to none haircuts, highly recommend 10/10", name:"Christain A"},
+    {comment: "Tush did a good job. Can't complain and just prices are reasonable! $17 for a shape-up/beard! Go see him!", name:"Dre m"},
+    {comment: "Great service and great haircut", name:"Sekou S"},
+    {comment: "He LACED my shape up. He listened to what I wanted and he nailed it, he was precise, strategic, sharp & professional. I found my new barber", name:"Rameeka H"},
+    {comment: "Skillful Clean & Respectful", name:"Kyree S"},
+    {comment: "The best haircut that I had in a while.", name:"Aduol L"},
+    {comment: "Excellent service. Money well spent for sure.", name:"Ikedife C"},
+    {comment: "Wonderful wonderful service! My sister looked so beautiful after the haircut! Fast and precise! And a clean environment too!", name:"Naa A"},
+    {comment: "Best series of haircuts I've had in years. Definitely recommend", name:"Timothy F"},
+    {comment: "Best series of haircuts I've had in years. Definitely recommend", name:"Timothy F"},
+  ]
   return (
     <>
       <div
         id="carouselExampleSlidesOnly"
-        class="carousel slide"
+        className="carousel slide"
         data-bs-ride="carousel"
       >
-        <div class="carousel-inner">
-          <div data-bs-interval="5000" class="carousel-item active">
+        <div className="carousel-inner">
+          {comments.map(((value, id)=>(
+            <div data-bs-interval="5000" className="carousel-item active">
             <p>
-              "First time visit, had excellent hair cut and beard trim, very
-              happy and will come back"
+             {value.comment}
             </p>
-            <p className="float-end border-start  border-3 border-danger px-3"> John Doe</p>
+            <p className="float-end border-start  border-3 border-danger px-3"> {value.name}</p>
           </div>
-          <div data-bs-interval="5000" class="carousel-item">
-            <p>
-              "I was referred by my friends and I wasn't disappointed, GREAT
-              SERVICE AND SKILL"
-            </p>
-            <p className="float-end border-start  border-3 border-danger px-3"> John Doe</p>
-          </div>
-          <div data-bs-interval="5000" class="carousel-item">
-            <p>
-              "This is one of those barbershops I can conveniently recomment"
-            </p>
-            <p className="float-end border-start  border-3 border-danger px-3"> John Doe</p>
-          </div>
+          )))}
+
         </div>
       </div>
     </>

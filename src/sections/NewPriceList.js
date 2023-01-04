@@ -5,7 +5,7 @@ const NewPriceList = () => {
   return (
     <div className={classes.pricelist_bg}>
       <div
-        className={"border border-white pb-3 border-4 h-100 " + classes.border}
+        className={"border border-white pb-3 border-4 " + classes.border}
       >
         <img src={logo} className="d-block mx-auto mb-2 " alt="" />
         <div className="mb-3">
