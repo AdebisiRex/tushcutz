@@ -24,7 +24,7 @@ const Map = () => {
           <img src={contact} alt="" className="mb-2" />
           <p className="m-0">CONTACT:</p>
           <p className="m-0">(862) 367-3408</p>
-          <p className="m-0">tushbarbershop@gmail.com</p>
+          <p className="m-0">tushcutz@gmail.com</p>
         </div>
         <div className="bg-primary p-3 shadow text-white text-center">
           <img src={address} alt="" className="mb-2" />

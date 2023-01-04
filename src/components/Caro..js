@@ -27,14 +27,14 @@ const Caro = () => {
       >
         <div className="carousel-inner">
           {comments.map(((value, id)=>(
-            <div data-bs-interval="5000" className="carousel-item active">
+            <div data-bs-interval="2000" className="carousel-item ">
             <p>
              {value.comment}
             </p>
             <p className="float-end border-start  border-3 border-danger px-3"> {value.name}</p>
           </div>
-          )))}
 
+)))}
         </div>
       </div>
     </>
