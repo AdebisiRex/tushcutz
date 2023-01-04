@@ -8,7 +8,7 @@ const AboutUs = () => {
   
   const showMore =()=>{
     let text = document.getElementById("aboutText")
-    text.classList.toggle("AboutUs_show__kU9uJ")
+    text.classList.toggle("abt_show")
     setshow(!show)
   }
 
@@ -25,7 +25,7 @@ const AboutUs = () => {
         </div>
 
         <h1>WELCOME TO TUSH BARBER SHOP</h1>
-        <p id="aboutText" className={`ms-3 ps-3 ${classes.show} ${classes.about_text}` }>
+        <p id="aboutText" className={`ms-3 ps-3 abt_show ${classes.about_text}` }>
         Tush Cutz Barbershop is one of the finest barber shops located in the heart of downtown Newark. Our shop has been ranked highly among the high-end barber shops in Newark and is endowed with top-notch barbers who are competent and offer all styles you like. Our work has also been featured on the social media pages of various celebrities as one of the best places to visit for your haircut needs. We provide top-tier services and the best professional haircuts to top professionals and celebrities. We take pride in our commitment, excellence, and elegance in men's grooming. If you want to improve your style and confidence, look no further for a master stylist.
         </p>
 
