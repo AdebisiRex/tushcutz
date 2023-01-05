@@ -26,6 +26,12 @@ const Caro = () => {
         data-bs-ride="carousel"
       >
         <div className="carousel-inner">
+        <div data-bs-interval="2000" className="carousel-item active">
+            <p>
+            Spectacular Cutz...He takes his time to know his clients...Nice guy!
+            </p>
+            <p className="float-end border-start  border-3 border-danger px-3"> Conscience I</p>
+          </div>
           {comments.map(((value, id)=>(
             <div data-bs-interval="2000" className="carousel-item ">
             <p>

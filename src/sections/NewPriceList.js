@@ -2,11 +2,25 @@ import React from "react";
 import classes from "../styles/NewPriceList.module.css";
 import logo from "../assets/logo.png";
 const NewPriceList = () => {
+  let array1 = [
+    { description: "HAIR CUT", price: "$30" },
+    { description: "HAIR CUT + BEARD", price: "$35" },
+    { description: "KIDS REGULAR", price: "$15" },
+    { description: "KIDS FADE", price: "$20" },
+    { description: "CRYING KIDS", price: "$50" },
+    { description: "DESIGN + HAIRCUT", price: "$5 &UP" },
+  ];
+  let array2 = [
+    { description: "COLOUR + CUTTING", price: "$75" },
+    { description: "ADULT BALDIE", price: "$25 + Beard = $30" },
+    { description: "SHAPE UP", price: "$15 + Beard = $17" },
+    { description: "EYEBROWS", price: "$10" },
+    { description: "BEARD SHAPE UP", price: "$12" },
+    { description: "HAIRCUT + BEARD + EYEBROWS", price: "$38" },
+  ];
   return (
     <div className={classes.pricelist_bg}>
-      <div
-        className={"border border-white pb-3 border-4 " + classes.border}
-      >
+      <div className={"border border-white pb-3 border-4 " + classes.border}>
         <img src={logo} className="d-block mx-auto mb-2 " alt="" />
         <div className="mb-3">
           <h1 className="text-center text-white font-monospace fs-3">
@@ -14,62 +28,51 @@ const NewPriceList = () => {
           </h1>
           <div
             className={
-              "d-md-flex justify-content-evenly mx-auto " + classes.table_div
+              "mx-auto " + classes.table_div
             }
           >
-            <table className="table table-borderless text-white mx-auto m-0">
-              <tbody>
-                <tr className="">
-                  <td>HAIR CUT</td>
-                  <td>$30</td>
-                </tr>
-                <tr>
-                  <td>HAIR CUT + BEARD</td>
-                  <td>$35</td>
-                </tr>
-                <tr>
-                  <td>KIDS REGULAR</td>
-                  <td>$15</td>
-                </tr>
-                <tr>
-                  <td>KIDS FADE</td>
-                  <td>$17</td>
-                </tr>
-                <tr>
-                  <td>CRYING KIDS</td>
-                  <td>$20</td>
-                </tr>
-                <tr>
-                  <td>DESIGN + HAIRCUT</td>
-                  <td>$17</td>
-                </tr>
-              </tbody>
-            </table>
+            
 
-            <table className="table table-borderless text-white mx-auto m-0">
-              <tbody>
-                <tr>
-                  <td>COLOUR + CUTTING </td>
-                  <td>$30</td>
-                </tr>
-                <tr>
-                  <td>ADULT BALDIE</td>
-                  <td>$35</td>
-                </tr>
-                <tr>
-                  <td>SHAPE UP</td>
-                  <td>$15</td>
-                </tr>
-                <tr>
-                  <td>EYE BROWS</td>
-                  <td>$20</td>
-                </tr>
-                <tr>
-                  <td>DESIGN + HAIRCUT</td>
-                  <td>$17</td>
-                </tr>
-              </tbody>
-            </table>
+            <div className="text-white mx-auto m-0">
+              {array1.map((item, id) => (
+                <div key={id} className={`${classes.table_row}  `}>
+                  <div
+                    className={`${classes.table_data} ${classes.description} `}
+                  >
+                    {" "}
+                    <p className="m-0 p-0 ">{item.description}</p>{" "}
+                  </div>
+
+                  <div className={`${classes.table_line}`}></div>
+
+                  <div
+                    className={`text-end  ${classes.table_data} ${classes.price}`}
+                  >
+                    {item.price}
+                  </div>
+                </div>
+              ))}
+            </div>
+            <div className="text-white mx-auto m-0">
+              {array2.map((item, id) => (
+                <div key={id} className={`${classes.table_row}  `}>
+                  <div
+                    className={`${classes.table_data} ${classes.description} `}
+                  >
+                    {" "}
+                    <p className="m-0 p-0 ">{item.description}</p>{" "}
+                  </div>
+
+                  <div className={`${classes.table_line}`}></div>
+
+                  <div
+                    className={`text-end  ${classes.table_data} ${classes.price}`}
+                  >
+                    {item.price}
+                  </div>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
         <div className={classes.deals + " text-white mx-auto"}>
@@ -83,6 +86,7 @@ const NewPriceList = () => {
             <li>SHAPE UP DOES NOT REQUIRE CLIPPER WORK</li>
             <li>KIDS ARE 13 AND BELOW</li>
           </ul>
+          {/* <p className="text-center">KINDLY PAY BEFORE YOU LEAVE</p> */}
         </div>
       </div>
     </div>

@@ -20,7 +20,10 @@
 }
 .services{
     position: relative;
+    width: 100%;
     top: -6.2rem;
+    /* right: 0; */
+    /* left: 0; */
     /* margin-top: -50px; */
     z-index: 10;
     display: grid;

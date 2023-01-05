@@ -6,27 +6,23 @@
 }
 .about{
     position:relative;
-    top: -4.2rem;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    top: -2rem;
+    /* display: grid; */
+    /* grid-template-columns: repeat(2, 1fr); */
     gap: 1.5rem;
     margin-bottom: 5rem;
 }
 .barber_img_div{
-   
-    aspect-ratio: 1 / 1.3;
+    aspect-ratio: 1 / 1.2;
 }
-.about_div{
-    margin-right: 5rem;
-}
-.about_div>div>p{
-    font-size: clamp(16px, 10px + 1vw, 24px);
-}
-.about_div>h1{
+
+
+.about_h1{
     font-size: clamp(1.5rem, 20px + 1vw, 3rem);
     font-weight: 700;
 }
 .about_text{
+    font-size: clamp(16px, 10px + 1vw, 24px);
     position: relative;
     font-size: clamp(16px, 10px + 1vw, 20px);
     margin-bottom: clamp(3rem, 2.5rem + 1vw, 6rem);
@@ -42,7 +38,7 @@
     overflow: hidden;
 
 }
-.about_div>p::before{
+.about_text::before{
     content: "";
     position: absolute;
     left: 0;
@@ -53,14 +49,14 @@
 
 }
 @media screen  and (max-width: 1150px) {
-    .about{
+    /* .about{
         display: grid;
         grid-template-columns: auto;
         
         grid-template-rows: auto auto;
-    }
-    .about_div{
-        margin-right: auto;
-        margin: auto min(20px, 5%);
-    }
+    } */
+    /* .about_div{ */
+        /* margin-right: auto; */
+        /* margin: auto min(20px, 5%); */
+    /* } */
 }

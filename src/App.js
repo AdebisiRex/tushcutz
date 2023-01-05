@@ -22,7 +22,7 @@ function App() {
   return (
     <div>
       <Header/>
-      <Service/>
+      {/* <Service/> */}
       <AboutUs/>
       {/* <Pricelist/> */}
       <NewPriceList/>

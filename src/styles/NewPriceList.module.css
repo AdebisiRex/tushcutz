@@ -1,9 +1,9 @@
 .pricelist_bg{
     position: relative;
-    top:-6.2rem;
+    top:-4.2rem;
     min-height: 100vh;
     padding: min(5vw, 2.5rem);
-    background:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../assets/IMG-1090.JPG");
+    background:linear-gradient(#091a2ec4, #091a2ec4), url("../assets/IMG-1090.JPG");
     /* filter: opacity(.75); */
     background-size: cover;
     background-position: center;
@@ -22,15 +22,45 @@
     padding-left: min(2vw, 2.5rem);
 }
 .table_div{
-    display: flex;   
+    display: flex;  
+    gap: 5rem; 
+}
+.table_div>div{
+    width: max(100%, 35vw);
 }
 
 @media screen and (max-width: 750px) {
     .table_div{
+        gap: 1rem; 
         flex-direction: column;
     }
 }
-.table_div>table{
-    width: min(400px, 100%);
-   
+
+
+.table_row{
+    position: relative;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: minmax(auto, max-content) auto minmax(auto, max-content) ; 
+    margin-bottom:1.2rem ;
+}
+
+.price{
+    text-align: end;
+    width: fit-content;
+}
+.description{
+    text-align: start;
+    width: fit-content;
+}
+.table_line{
+    position: relative;
+    top: .6rem;
+    height: 1px;
+    width: 100%;
+    /* flex-basis:; */
+    /* right: 10% ; */
+    /* left:40%; */
+    border-top: 3px dashed gainsboro;
+    
 }

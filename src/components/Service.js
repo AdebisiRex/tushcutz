@@ -22,7 +22,7 @@ const Service = () => {
       </div>
       <div className="text-center bg-white py-3">
         <p className="fw-bold  fs-5 m-0">Opening Times</p>
-        <span className="fs-6">mon to sat - 9:00 am to 6:00pm</span>
+        <span className="fs-6">mon to sat - 10:00 am to 8:00pm</span>
       </div>
       <div className={classes.carousel + " bg-primary p-3 text-white"}>
         <div className="w-100">

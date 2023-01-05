@@ -2,8 +2,9 @@ import React from 'react'
 import classes from "../styles/Footer.module.css"
 // import {Link} from "react-router-dom"
 import logo from "../assets/logo.png"
-import facebook from "../assets/facebook-white.png"
-import twitter from "../assets/twitter-white.png"
+import tiktok from "../assets/TikTok.png";
+// import facebook from "../assets/facebook-white.png"
+// import twitter from "../assets/twitter-white.png"
 import instagram from "../assets/instagram.png"
 import google from "../assets/google.png"
 
@@ -16,11 +17,12 @@ const Footer = () => {
         <img src={logo} height={150} alt="" />
        </div>
        
-        <div className="socials">
-            <img className='mx-1'  src={facebook} width={20} alt="" />
-            <img className='mx-1' src={twitter} width={20} alt="" />
-            <img className='mx-1' src={instagram} width={20} alt="" />
-            <img className='mx-1' src={google} width={20} alt="" />
+      
+        <div>
+          {/* <img className="mx-2" src={facebook} width={20} alt="" /> */}
+          <a rel="noreferrer" target={"_blank"}  href="tushcutz@gmail.com"><img className="mx-2" src={google} width={20} alt="" /></a>
+          <a rel="noreferrer" target={"_blank"} href="https://www.tiktok.com/@tushiemane?_t=8Yc06momeYk&_r=1"><img className="mx-2" src={tiktok} width={20} alt="" /></a>
+          <a rel="noreferrer" target={"_blank"} href="https://instagram.com/tushcutzbarbershop?igshid=YWJhMjlhZTc="><img className="mx-2" src={instagram} width={20} alt="" /></a>
         </div>
         <div className={classes.footer_nav + "  mx-auto "}>
             <div className='d-lg-flex mx-auto text-center'>

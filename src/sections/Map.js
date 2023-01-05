@@ -7,11 +7,11 @@ import address from "../assets/address.png";
 
 const Map = () => {
   return (
-    <div id="contact" className="position-relative">
+    <div id="contact" className={` ${classes.contact}`}>
       <div
         className={
           classes.details +
-          " container wow animate__animated animate__fadeInDown animate__slower  mb-5"
+          "  container wow animate__animated animate__fadeInDown animate__slower  mb-5"
         }
       >
         <div className="bg-primary p-3 shadow  text-white text-center">
@@ -20,16 +20,17 @@ const Map = () => {
           <p className="m-0">Monday to Saturday: 10:00am - 7:00pm</p>
           <p className="m-0">Sunday: Closed</p>
         </div>
-        <div className="bg-primary p-3 shadow text-white text-center">
-          <img src={contact} alt="" className="mb-2" />
-          <p className="m-0">CONTACT:</p>
-          <p className="m-0">(862) 367-3408</p>
-          <p className="m-0">tushcutz@gmail.com</p>
-        </div>
+        
         <div className="bg-primary p-3 shadow text-white text-center">
           <img src={address} alt="" className="mb-2" />
           <p className="m-0">ADDRESS:</p>
           <p className="m-0">Raymond Blvd, 1212, A, Newark, 07102</p>
+        </div>
+        <div className="bg-primary p-3 shadow text-white text-center">
+          <img src={contact} alt="" className="mb-2" />
+          <p className="m-0">CONTACT:</p>
+          <p className="m-0">(862) 367-3408</p>
+          <p className="m-0">Tushcutz@gmail.com</p>
         </div>
       </div>
       <a

@@ -9,15 +9,15 @@ import img6 from "../assets/IMG-1096.JPG";
 import img7 from "../assets/IMG-1104.JPG";
 import img8 from "../assets/IMG-1164.PNG";
 import img9 from "../assets/IMG-1159.PNG";
-import img10 from "../assets/IMG-1093.JPG";
+// import img10 from "../assets/IMG-1093.JPG";
 import img11 from "../assets/IMG-1101.JPG";
-import img12 from "../assets/IMG-1083.JPG";
+// import img12 from "../assets/IMG-1083.JPG";
 import img13 from "../assets/image12.png";
 import img14 from "../assets/image13.png";
 import GalleryImage from "../components/GalleryImage";
 const OurGallery = () => {
   return (
-    <div id="gallery" className="min-vh-100 pt-2">
+    <div id="gallery" className={`${classes.gallery} min-vh-100 pt-2`}>
       <div className="container p-2">
         <h1 className="font-monospace text-center text-primary py-5">
           Our gallery

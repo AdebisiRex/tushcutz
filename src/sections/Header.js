@@ -3,10 +3,11 @@ import Navbar from "../components/Navbar";
 import watch from "../assets/watch-video.png";
 import line from "../assets/line.png";
 import classes from "../styles/Header.module.css";
+import Service from "../components/Service";
 const Header = () => {
   return (
     <>
-      <header id="header" className={classes.header + " vh-100"}>
+      <header id="header" className={classes.header + ""}>
         <Navbar />
         <div className={classes.header_div + "  text-white container"}>
           <div className={classes.premium + " d-flex "}>
@@ -27,6 +28,7 @@ const Header = () => {
           </div>
         </div>
       </header>
+        <Service/>
     </>
   );
 };

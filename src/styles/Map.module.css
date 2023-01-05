@@ -9,7 +9,7 @@
   
     position: relative;
     align-items: center;
-    /* bottom: -4rem; */
+    top: -2.4rem;
 }
 
 .map{
@@ -19,6 +19,10 @@
     background-repeat: no-repeat;
 }
 
+.contact{
+    position: relative;
+    /* top: 6.2rem; */
+}
 
 @media screen and (max-width: 1250px) and (min-width: 750px){
     .details{
