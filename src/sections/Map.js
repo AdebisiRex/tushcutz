@@ -17,7 +17,7 @@ const Map = () => {
         <div className="bg-primary p-3 shadow  text-white text-center">
           <img src={working} alt="" className="mb-2" />
           <p className="m-0">WORKING HOURS</p>
-          <p className="m-0">Monday to Saturday: 10:00am - 7:00pm</p>
+          <p className="m-0">Monday to Saturday: 10:00am - 8:00pm</p>
           <p className="m-0">Sunday: Closed</p>
         </div>
         
@@ -29,7 +29,7 @@ const Map = () => {
         <div className="bg-primary p-3 shadow text-white text-center">
           <img src={contact} alt="" className="mb-2" />
           <p className="m-0">CONTACT:</p>
-          <p className="m-0">(862) 367-3408</p>
+          <p className="m-0">(862) 303-3336</p>
           <p className="m-0">Tushcutz@gmail.com</p>
         </div>
       </div>
