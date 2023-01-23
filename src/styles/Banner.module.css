@@ -1,0 +1,12 @@
+.book>a>img, .book>a>p{
+    display: block;
+    font-weight: 500;
+}
+
+.banner{
+    display:  flex;
+    justify-content: space-between;
+    
+    text-decoration: none;
+
+}

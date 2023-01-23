@@ -6,13 +6,14 @@ import { useEffect } from "react";
 import WOW from "wowjs";
 import "animate.css";
 import Header from "./sections/Header";
-import Service from "./components/Service";
+// import Service from "./components/Service";
 import AboutUs from "./components/AboutUs";
 // import Pricelist from "./sections/Pricelist";
 import OurTeam from "./sections/OurTeam";
 import OurGallery from "./sections/OurGallery";
 import Map from "./sections/Map";
 import NewPriceList from "./sections/NewPriceList";
+import Banner from "./components/Banner";
 
 function App() {
   useEffect(()=>{
@@ -21,6 +22,7 @@ function App() {
 
   return (
     <div>
+      <Banner/>
       <Header/>
       {/* <Service/> */}
       <AboutUs/>
