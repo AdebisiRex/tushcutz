@@ -22,10 +22,10 @@ const Header = () => {
           The best barbershop in Newark with top-notch stylists. We are the best place to improve your style and confidence.
           </p>
           </div>
-          <div className={classes.watch + " d-flex align-items-center"}>
-            <h4 className="me-2">Watch Video</h4>
+          <a href="https://www.instagram.com/p/CezvmvDgUI1/" target={"_blank"} className={classes.watch + " d-flex align-items-center"}>
+            <h4 className="me-2 text-white">Watch Video</h4>
             <img src={watch} width={34} alt="" className="p-0 m-0 ms-2" />
-          </div>
+          </a>
         </div>
       </header>
         <Service/>

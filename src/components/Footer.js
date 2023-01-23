@@ -48,7 +48,10 @@ const Footer = () => {
         </div>
 
         <div className='mb-3'>
-            <button className='btn btn-danger rounded-0 fs-5 py-2 px-5'>Book Now</button>
+            <a className={classes.btn} rel="noreferrer" target="_blank"
+           href="https://booksy.com/en-us/540342_tush-cutz-barbershop_barber-shop_134623_newark?do=invite&_branch_match_id=1051452559234864044&utm_source=sms&utm_medium=merchant_customer_invite&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXT07J0UvKz88urtRLzs%2FVL7MM8s6PzM7Iz08CAIyEGjoiAAAA">
+            <button className={'btn btn-danger rounded-0 fs-5 py-2 px-5'}>Book Now</button>
+            </a>
         </div>
 
         <div><p className='text-white'> Copywright &copy; 2023 Tushcutz Barbers</p></div>

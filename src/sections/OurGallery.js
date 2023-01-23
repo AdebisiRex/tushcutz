@@ -29,14 +29,14 @@ const OurGallery = () => {
           <GalleryImage img={img1} />
           <GalleryImage img={img13} />
           <GalleryImage img={img14} />
-          <GalleryImage img={img2} st_class ="d-none d-md-block" />
-          <GalleryImage img={img3} st_class ="d-none d-md-block" />
-          <GalleryImage img={img4}  st_class ="d-none d-lg-block"/>
+           <GalleryImage img={img2} />
+          <GalleryImage img={img3} />
+          {/*<GalleryImage img={img4}  st_class ="d-none d-lg-block"/>
           
           <GalleryImage img={img6}  st_class ="d-none d-lg-block"/>
           <GalleryImage img={img8}  st_class ="d-none d-lg-block"/>
 
-          <GalleryImage img={img9}  st_class ="d-none d-lg-block"/>
+          <GalleryImage img={img9}  st_class ="d-none d-lg-block"/> */}
           {/* <GalleryImage img={img10} /> */}
           {/* <GalleryImage img={img12} /> */}
         </div>

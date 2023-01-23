@@ -20,9 +20,10 @@
   /* border: 5px solid bisque !important; */
 }
 
-.footer_nav>div>div>a  {
+.footer_nav>div>div>a, .btn {
     text-decoration: none;
 }
+
 .footer_nav>div>div {
     margin-bottom: .5em ;
     position: relative;

@@ -40,7 +40,7 @@ const Service = () => {
         }
       >
         <a  rel="noreferrer" target="_blank"
-           href="https://booksy.com/en-us/540342_tush-cutz-barbershop_barber-shop_134623_newark?do=invite&_branch_match_id=1051452559234864044&utm_source=sms&utm_medium=merchant_customer_invite&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXT07J0UvKz88urtRLzs%2FVL7MM8s6PzM7Iz08CAIyEGjoiAAAA" className="pt-3 w-100 p   text-white ">
+           href="https://booksy.com/en-us/540342_tush-cutz-barbershop_barber-shop_134623_newark?do=invite&_branch_match_id=1051452559234864044&utm_source=sms&utm_medium=merchant_customer_invite&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXT07J0UvKz88urtRLzs%2FVL7MM8s6PzM7Iz08CAIyEGjoiAAAA" className="pt-3 w-100  text-white ">
           <img src={book} className=" p-0 pb-2 m-0 me-3  " width={20} alt="" />
           <p className="fs-5">
             Book Now

@@ -15,7 +15,10 @@
 }
 
 
-
+.watch{
+    text-decoration: none;
+    
+}
 .premium>p, .watch>h4{
     line-height: 0;
 }
