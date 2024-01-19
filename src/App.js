@@ -14,6 +14,7 @@ import OurGallery from "./sections/OurGallery";
 import Map from "./sections/Map";
 import NewPriceList from "./sections/NewPriceList";
 import Banner from "./components/Banner";
+import BlobGallery from "./sections/BlobGallery";
 
 function App() {
   useEffect(()=>{
@@ -22,14 +23,15 @@ function App() {
 
   return (
     <div>
-      <Banner/>
+      {/* <Banner/> */}
       <Header/>
       {/* <Service/> */}
       <AboutUs/>
       {/* <Pricelist/> */}
       <NewPriceList/>
-      <OurTeam/>
-      <OurGallery/>
+      {/* <OurTeam/> */}
+      {/* <OurGallery/> */}
+      <BlobGallery/>
       <Map/>
       <Footer/>
     </div>

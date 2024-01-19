@@ -7,7 +7,7 @@ import address from "../assets/address.png";
 
 const Map = () => {
   return (
-    <div id="contact" className={` ${classes.contact}`}>
+    <div id="contact" className={` ${classes.contact} border`}>
       <div
         className={
           classes.details +

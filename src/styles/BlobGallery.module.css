@@ -1,0 +1,32 @@
+.section{
+    position: relative;
+    top:-4.2rem;
+    min-height: 100vh;
+}
+.blobs{
+    aspect-ratio: 1 / 1.7;
+    width: min(24vw, 250px);
+    background-size: cover;
+    background-position: center;
+    mask-size: contain;
+    mask-repeat: no-repeat;
+}
+
+
+.blob1{
+    mask-image: url("../assets/img/Vector.svg");
+    background-image: url("../assets/IMG-1095.JPG");
+    
+}
+.blob2{
+    mask-image: url("../assets/img/Vector1.svg");
+    background-image: url("../assets/IMG-1090.JPG");   
+}
+.blob3{
+    mask-image: url("../assets/img/Vector2.svg");
+    background-image: url("../assets/IMG-1082.JPG");   
+}
+.blob4{
+    mask-image: url("../assets/img/Vector3.svg");
+    background-image: url("../assets/IMG-1079.JPG");   
+}

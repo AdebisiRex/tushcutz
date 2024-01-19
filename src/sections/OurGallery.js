@@ -17,7 +17,7 @@ import img14 from "../assets/image13.png";
 import GalleryImage from "../components/GalleryImage";
 const OurGallery = () => {
   return (
-    <div id="gallery" className={`${classes.gallery} min-vh-100 pt-2`}>
+    <div  className={`${classes.gallery} min-vh-100 pt-2`}>
       <div className="container p-2">
         <h1 className="font-monospace text-center text-primary py-5">
           Our gallery

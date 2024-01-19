@@ -9,19 +9,23 @@
   
     position: relative;
     align-items: center;
-    bottom: -2.2rem;
+    top: -4.2rem;
 }
 
-.map{
-    height: 75vh;
+/* .map{
+
     background: url("../assets/map.png");
     background-size: cover;
     background-repeat: no-repeat;
-}
+} */
 
 .contact{
     position: relative;
-    /* top: 6.2rem; */
+    top: -4.2rem;
+    min-height: 75vh;
+    background: url("../assets/map.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 @media screen and (max-width: 1250px) and (min-width: 750px){

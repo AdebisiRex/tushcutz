@@ -4,8 +4,8 @@ import logo from "../assets/logo.png";
 const NewPriceList = () => {
   let array1 = [
     { description: "HAIR CUT", price: "$30" },
-    { description: "HAIR CUT + BEARD", price: "$35" },
-    { description: "KIDS REGULAR", price: "$15" },
+    { description: "HAIR CUT + BEARD", price: "$30" },
+    { description: "KIDS REGULAR", price: "$30" },
     { description: "KIDS FADE", price: "$20" },
     { description: "CRYING KIDS", price: "$50" },
     { description: "DESIGN + HAIRCUT", price: "$5 &UP" },
@@ -15,7 +15,7 @@ const NewPriceList = () => {
     { description: "ADULT BALDIE", price: "$25 + Beard = $30" },
     { description: "SHAPE UP", price: "$15 + Beard = $17" },
     { description: "EYEBROWS", price: "$10" },
-    { description: "BEARD SHAPE UP", price: "$12" },
+    { description: "BEARD SHAPE UP", price: "$10" },
     { description: "HAIRCUT + BEARD + EYEBROWS", price: "$38" },
   ];
   return (
