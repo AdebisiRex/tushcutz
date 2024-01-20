@@ -21,26 +21,20 @@ const NewPriceList = () => {
   return (
     <div className={classes.pricelist_bg}>
       <div className={"border border-white pb-3 border-4 " + classes.border}>
-        <img src={logo} className="d-block mx-auto mb-2 " alt="" />
-        <div className="mb-3">
-          <h1 className="text-center text-white font-monospace fs-3">
+        <img src={logo} className='d-block mx-auto mb-3 ' alt='' />
+        <div className='mb-3'>
+          <h1 className='text-center text-white font-monospace fs-3 mb-4'>
             Price List
           </h1>
-          <div
-            className={
-              "mx-auto " + classes.table_div
-            }
-          >
-            
-
-            <div className="text-white mx-auto m-0">
+          <div className={"mx-auto " + classes.table_div}>
+            <div className='text-white mx-auto m-0'>
               {array1.map((item, id) => (
                 <div key={id} className={`${classes.table_row}  `}>
                   <div
                     className={`${classes.table_data} ${classes.description} `}
                   >
                     {" "}
-                    <p className="m-0 p-0 ">{item.description}</p>{" "}
+                    <p className='m-0 p-0 '>{item.description}</p>{" "}
                   </div>
 
                   <div className={`${classes.table_line}`}></div>
@@ -53,14 +47,14 @@ const NewPriceList = () => {
                 </div>
               ))}
             </div>
-            <div className="text-white mx-auto m-0">
+            <div className='text-white mx-auto m-0'>
               {array2.map((item, id) => (
                 <div key={id} className={`${classes.table_row}  `}>
                   <div
                     className={`${classes.table_data} ${classes.description} `}
                   >
                     {" "}
-                    <p className="m-0 p-0 ">{item.description}</p>{" "}
+                    <p className='m-0 p-0 '>{item.description}</p>{" "}
                   </div>
 
                   <div className={`${classes.table_line}`}></div>
@@ -76,11 +70,11 @@ const NewPriceList = () => {
           </div>
         </div>
         <div className={classes.deals + " text-white mx-auto"}>
-          <h3 className="font-monospace  text-center fw-bold fs-4">DEALS</h3>
+          <h3 className='font-monospace  text-center fw-bold fs-4'>DEALS</h3>
           <p>HAIRCUT + BEARD + EYEBROWS = $38</p>
           <p>HAIRCUT + BEARD + EYEBROWS + DESIGN= $40</p>
 
-          <p className="fw-bold fs-5 m-0">NOTE:</p>
+          <p className='fw-bold fs-5 m-0'>NOTE:</p>
           <ul>
             <li>TAPER IS A HAIRCUT</li>
             <li>SHAPE UP DOES NOT REQUIRE CLIPPER WORK</li>

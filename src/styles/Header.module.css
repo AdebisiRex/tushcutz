@@ -7,11 +7,11 @@
     place-items: center;
     z-index: 0;
     min-height: 100vh;
-    /* justify-content: left; */
+    margin-bottom: 5.2rem;
+
 }
 .header_div{
     padding: .5rem;
-    /* max-width: 600px; */
 }
 
 

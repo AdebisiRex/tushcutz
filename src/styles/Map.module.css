@@ -3,7 +3,7 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
     position: relative;
-    top: 2rem;
+    /* top: 2rem; */
 }
 .details>div{
   
@@ -21,7 +21,6 @@
 
 .contact{
     position: relative;
-    top: -4.2rem;
     min-height: 75vh;
     background: url("../assets/map.png");
     background-size: cover;

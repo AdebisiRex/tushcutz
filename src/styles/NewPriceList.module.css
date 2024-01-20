@@ -1,10 +1,10 @@
 .pricelist_bg{
     position: relative;
-    top:-4.2rem;
+    /* top:-4.2rem; */
     min-height: 100vh;
     padding: min(5vw, 2.5rem);
     background:linear-gradient(#091a2ec4, #091a2ec4), url("../assets/IMG-1090.JPG");
-    /* filter: opacity(.75); */
+    display: flex;
     background-size: cover;
     background-position: center;
 }
@@ -15,7 +15,7 @@
 }
 .border{
     position: relative;
-    
+    flex: 1;
     padding-top:min(2vw, 2.5rem);
     padding-bottom:min(2vw, 2.5rem);
     padding-right:min(2vw, 2.5rem);

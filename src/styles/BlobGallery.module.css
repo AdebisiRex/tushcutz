@@ -1,6 +1,5 @@
 .section{
     position: relative;
-    top:-4.2rem;
     min-height: 100vh;
 }
 .blobs{
@@ -15,18 +14,34 @@
 
 .blob1{
     mask-image: url("../assets/img/Vector.svg");
-    background-image: url("../assets/IMG-1095.JPG");
+    background-image: url("../assets/photo_4.jpg");
     
 }
 .blob2{
     mask-image: url("../assets/img/Vector1.svg");
-    background-image: url("../assets/IMG-1090.JPG");   
+    background-image: url("../assets/photo_2.jpg");   
 }
 .blob3{
     mask-image: url("../assets/img/Vector2.svg");
-    background-image: url("../assets/IMG-1082.JPG");   
+    background-image: url("../assets/photo_3.jpg");   
 }
 .blob4{
     mask-image: url("../assets/img/Vector3.svg");
+    background-image: url("../assets/photo_1.jpg");   
+}
+.blob5{
+    mask-image: url("../assets/img/Vector2.svg");
+    background-image: url("../assets/photo_5.jpg");   
+}
+.blob6{
+    mask-image: url("../assets/img/Vector3.svg");
     background-image: url("../assets/IMG-1079.JPG");   
+}
+.blob7{
+    mask-image: url("../assets/img/Vector3.svg");
+    background-image: url("../assets/IMG-1080.JPG");   
+}
+.blob8{
+    mask-image: url("../assets/img/Vector3.svg");
+    background-image: url("../assets/IMG-1095.JPG");   
 }

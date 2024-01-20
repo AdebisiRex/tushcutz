@@ -27,8 +27,8 @@ const Header = () => {
             <img src={watch} width={34} alt="" className="p-0 m-0 ms-2" />
           </a>
         </div>
-      </header>
         <Service/>
+      </header>
     </>
   );
 };
