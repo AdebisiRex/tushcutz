@@ -17,10 +17,11 @@ const AboutUs = () => {
   return (
     <div id='about' className={`${classes.about} min-vh-100`}>
       <div className={` ${classes.barber_img_div} `}>
+        adebisi
         {/* <img src={barber} alt='' className={classes.barber_img} /> */}
       </div>
 
-      <div className={classes.about_text_div}>
+      <div className={classes.about_text_div + " d-flex  align-items-center "}>
         <div className={classes.about_div + " col-9 mx-auto "}>
           <div className={" d-flex align-items-center mb-3"}>
             <img src={line} height={3} alt='' className='p-0 m-0 me-2' />

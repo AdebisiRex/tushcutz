@@ -2,46 +2,66 @@
     position: relative;
     min-height: 100vh;
 }
-.blobs{
-    aspect-ratio: 1 / 1.7;
-    width: min(24vw, 250px);
-    background-size: cover;
-    background-position: center;
-    mask-size: contain;
-    mask-repeat: no-repeat;
+.grid{
+    display: grid;
+    gap:1.5rem ;
+    grid-template-columns: repeat( 3, minmax(auto, 1fr));
+    grid-template-rows: repeat(3, 400px);
 }
 
+@media screen and (width < 450px ) {
+    .grid{
+
+        grid-template-columns: auto;
+        grid-template-rows: repeat(5, 400px);
+    }
+    
+}
+.blobs{
+    height: 100% ;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 1.5rem;
+    /* mask-repeat: no-repeat; */
+}
+.image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
 
 .blob1{
-    mask-image: url("../assets/img/Vector.svg");
+    /* mask-image: url("../assets/img/Vector.svg"); */
     background-image: url("../assets/photo_4.jpg");
     
 }
 .blob2{
-    mask-image: url("../assets/img/Vector1.svg");
+    /* mask-image: url("../assets/img/Vector1.svg"); */
     background-image: url("../assets/photo_2.jpg");   
 }
 .blob3{
-    mask-image: url("../assets/img/Vector2.svg");
+    /* mask-image: url("../assets/img/Vector2.svg"); */
     background-image: url("../assets/photo_3.jpg");   
 }
 .blob4{
-    mask-image: url("../assets/img/Vector3.svg");
+    /* mask-image: url("../assets/img/Vector3.svg"); */
     background-image: url("../assets/photo_1.jpg");   
 }
 .blob5{
-    mask-image: url("../assets/img/Vector2.svg");
+    /* mask-image: url("../assets/img/Vector2.svg"); */
     background-image: url("../assets/photo_5.jpg");   
 }
 .blob6{
-    mask-image: url("../assets/img/Vector3.svg");
+    /* mask-image: url("../assets/img/Vector3.svg"); */
     background-image: url("../assets/IMG-1079.JPG");   
 }
 .blob7{
-    mask-image: url("../assets/img/Vector3.svg");
+    /* mask-image: url("../assets/img/Vector3.svg"); */
     background-image: url("../assets/IMG-1080.JPG");   
 }
 .blob8{
-    mask-image: url("../assets/img/Vector3.svg");
+    /* mask-image: url("../assets/img/Vector3.svg"); */
     background-image: url("../assets/IMG-1095.JPG");   
 }

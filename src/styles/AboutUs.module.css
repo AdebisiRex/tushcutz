@@ -8,26 +8,49 @@
     object-position: center;*/
 }
 
-
 .about {
+  display: grid;
+  grid-template-columns: 45% 55%;
+}
+.barber_img_div {
+  background: url("../assets/photo_4.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and (width < 450px) {
+  .barber_img_div {
+    background: none;
+  }
+  .about {
+    display: block;
     position: relative;
-    background: url("../assets/photo_4.jpg");
     /* transform: rotateY(180deg); */
     background-size: cover;
-    background-position: 35% 35% ;
+    background-position: 35% 35%;
+  }
+
+  .about_text_div {
+    /* background: ; */
+    position: absolute;
+    height: 100vh;
+    padding-top: 10%;
+
+    background: linear-gradient(
+        rgba(255, 255, 255, 0),
+        rgba(255, 255, 255, 0.3),
+        rgba(255, 255, 255, 0.7) 25%
+      ),
+      url("../assets/photo_4.jpg");
+    /* filter:blur(16px); */
+    bottom: 0;
+    background-size: cover;
+    background-position: center;
+  }
 }
 
-.about_text_div {
-  position: absolute;
-  height: 70vh;
-  padding-top: 10%;
-
-  background:linear-gradient(rgba(255, 255, 255, 0.0),rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.70)25%);
-  /* filter:blur(16px); */
-  bottom: 0;
-}
-.about_div{
-    filter: blur(0);
+.about_div {
+  filter: blur(0);
 }
 .about_h1 {
   font-size: clamp(1.5rem, 20px + 1vw, 3rem);
