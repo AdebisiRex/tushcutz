@@ -30,7 +30,7 @@ const ContactUs = () => {
     });
   };
   return (
-    <div id='contact-us' className='min-vh-100 bg-secondary  bg-opacity-25 '>
+    <div id='contact-us' className={classes.contact + ' min-vh-100 bg-secondary  bg-opacity-25'}>
       <div
         className={
           classes.contact_container + " vh-100 container d-flex border"
@@ -55,7 +55,7 @@ const ContactUs = () => {
             onSubmit={(event) => submitContact(event)}
             className='col-12 col-md-6'
           >
-            <div>
+            <div className="px-3">
               <div className='row mb-3'>
                 <input
                   className='col form-control bg-transparent text-dark me-1 border border-3 border-danger p-3'
@@ -74,9 +74,9 @@ const ContactUs = () => {
               <textarea
                 name=''
                 id=''
-                className='w-100 border form-control bg-transparent text-dark mb-3  border-3 m-0 border-danger p-3'
+                className='border form-control bg-transparent text-dark mb-3  border-3 m-0 border-danger p-3'
                 placeholder='Message'
-                rows='10'
+                rows='5'
                 required
               ></textarea>
 

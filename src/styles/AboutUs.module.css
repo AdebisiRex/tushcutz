@@ -12,8 +12,10 @@
   display: grid;
   grid-template-columns: 45% 55%;
 }
+
+
 .barber_img_div {
-  background: url("../assets/photo_4.jpg");
+  background: url("../assets/IMG-1080.JPG");
   background-size: cover;
   background-position: center;
 }
@@ -28,20 +30,24 @@
     /* transform: rotateY(180deg); */
     background-size: cover;
     background-position: 35% 35%;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
   }
-
+  
   .about_text_div {
     /* background: ; */
+    /* background: url("../assets/photo_4.jpg"); */
     position: absolute;
     height: 100vh;
-    padding-top: 10%;
+    padding:15vh auto;
+    /* padding-top: 10%; */
 
     background: linear-gradient(
         rgba(255, 255, 255, 0),
         rgba(255, 255, 255, 0.3),
         rgba(255, 255, 255, 0.7) 25%
       ),
-      url("../assets/photo_4.jpg");
+      url("../assets/IMG-1080.JPG");
     /* filter:blur(16px); */
     bottom: 0;
     background-size: cover;

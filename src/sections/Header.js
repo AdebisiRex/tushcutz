@@ -15,7 +15,7 @@ const Header = () => {
             <p className="">THE PREMIUM LIFESTYLE</p>
           </div>
           <div className={classes.text_content}>
-          <h1 className=" ">
+          <h1 className={classes.bigText}>
             You're Not A Customer, You're FAMILY
           </h1>
           <p>

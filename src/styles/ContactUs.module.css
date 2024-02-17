@@ -1,3 +1,8 @@
+@media screen and (width< 450px) {
+    .contact{
+        padding: 15vh auto;
+    }
+}
 .contact_container{
     height: 100%;
 }

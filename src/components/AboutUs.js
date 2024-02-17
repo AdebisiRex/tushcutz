@@ -17,7 +17,6 @@ const AboutUs = () => {
   return (
     <div id='about' className={`${classes.about} min-vh-100`}>
       <div className={` ${classes.barber_img_div} `}>
-        adebisi
         {/* <img src={barber} alt='' className={classes.barber_img} /> */}
       </div>
 
@@ -32,7 +31,7 @@ const AboutUs = () => {
             <h1 className={classes.about_h1}>WELCOME TO TUSH BARBER SHOP</h1>
             <p
               id='aboutText'
-              className={`ms-3 ps-3 abt_show ${classes.about_text}`}
+              className={`ms-3 ps-3  ${''}`}
             >
               Tush Cutz Barbershop is one of the finest barber shops located in
               the heart of downtown Newark. Our shop has been ranked highly
@@ -47,13 +46,13 @@ const AboutUs = () => {
               no further for a master stylist.
             </p>
 
-            <button
+            {/* <button
               id='button'
               onClick={showMore}
               className='btn btn-danger rounded-0 fs-5 py-3 shadow px-5 float-end'
             >
               {show ? "Read Less" : "Read More"}
-            </button>
+            </button> */}
           </div>
         </div>
       </div>

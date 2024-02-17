@@ -11,7 +11,7 @@ const Map = () => {
       <div
         className={
           classes.details +
-          "  container wow animate__animated animate__fadeInDown animate__slower  mb-5"
+          "  container wow animate__animated animate__fadeInDown animate__slower"
         }
       >
         <div className="bg-primary p-3 shadow  text-white text-center">
